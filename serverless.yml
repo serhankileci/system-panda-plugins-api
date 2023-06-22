@@ -1,0 +1,4 @@
+service: system-panda-plugins
+provider:
+  name: aws
+  runtime: nodejs18.x

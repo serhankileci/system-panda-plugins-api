@@ -1,0 +1,20 @@
+{
+	"name": "system-panda-plugins-api",
+	"main": "index.js",
+	"license": "MIT",
+	"type": "module",
+	"version": "0.1.0",
+	"homepage": "https://github.com/serhankileci/system-panda-plugins-api",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/serhankileci/system-panda-plugins-api.git"
+	},
+	"author": "Serhan Kileci <serhanselimkileci@gmail.com>",
+	"scripts": {
+		"start": "node index",
+		"zip": "zip -r index.zip ."
+	},
+	"dependencies": {
+		"mongoose": "^7.2.3"
+	}
+}
